@@ -1,3 +1,14 @@
+
+#sudoku {
+  font-size: 0;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
 div.box, div.cell {
   display: inline-block;
 }
@@ -5,9 +16,4 @@ div.box, div.cell {
 .cell input {
   width: 30px;
   height: 30px;
-}
-
-#sudoku {
-  font-size: 0;
-  text-align: center;
 }
