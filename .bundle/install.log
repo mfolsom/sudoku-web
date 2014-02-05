@@ -8,3 +8,12 @@ I, [2014-02-03T14:22:13.059264 #1373]  INFO -- : 0:  tilt (1.4.1) from /Users/me
 I, [2014-02-03T14:22:13.059478 #1373]  INFO -- : 0:  sinatra (1.4.4) from /Users/meganfolsom/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
 I, [2014-02-03T14:22:17.036038 #1373]  INFO -- : 0:  thin (1.6.1) from /Users/meganfolsom/.rvm/gems/ruby-2.1.0/specifications/thin-1.6.1.gemspec
 I, [2014-02-03T14:22:17.036383 #1373]  INFO -- : 0:  bundler (1.5.1) from /Users/meganfolsom/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec
+I, [2014-02-05T12:11:00.450485 #5971]  INFO -- : 0:  daemons (1.1.9) from /Users/meganfolsom/.rvm/gems/ruby-2.1.0/specifications/daemons-1.1.9.gemspec
+I, [2014-02-05T12:11:00.451244 #5971]  INFO -- : 0:  eventmachine (1.0.3) from /Users/meganfolsom/.rvm/gems/ruby-2.1.0/specifications/eventmachine-1.0.3.gemspec
+I, [2014-02-05T12:11:00.451501 #5971]  INFO -- : 0:  rack (1.5.2) from /Users/meganfolsom/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-02-05T12:11:00.451733 #5971]  INFO -- : 0:  rack-protection (1.5.2) from /Users/meganfolsom/.rvm/gems/ruby-2.1.0/specifications/rack-protection-1.5.2.gemspec
+I, [2014-02-05T12:11:00.451957 #5971]  INFO -- : 0:  shotgun (0.9) from /Users/meganfolsom/.rvm/gems/ruby-2.1.0/specifications/shotgun-0.9.gemspec
+I, [2014-02-05T12:11:00.452197 #5971]  INFO -- : 0:  tilt (1.4.1) from /Users/meganfolsom/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-02-05T12:11:00.452421 #5971]  INFO -- : 0:  sinatra (1.4.4) from /Users/meganfolsom/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-02-05T12:11:00.452642 #5971]  INFO -- : 0:  thin (1.6.1) from /Users/meganfolsom/.rvm/gems/ruby-2.1.0/specifications/thin-1.6.1.gemspec
+I, [2014-02-05T12:11:00.452858 #5971]  INFO -- : 0:  bundler (1.5.1) from /Users/meganfolsom/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec
