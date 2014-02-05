@@ -4,19 +4,88 @@
   text-align: center;
 }
 
+div.box {
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+}
 
+div.cell {
+  font-size: 0;
+  display: inline-block;
+  opacity:0.9;
+}
+
+header {
+  margin-top: -10px;
+  text-align:center;
+}
 
 body h1 {
   text-align: center;
-  font-family: font-family: Papyrus, fantasy;
+  font-family: Arnoldboecklin, fantasy
 }
 
 
-div.box, div.cell {
-  display: inline-block;
+body button {
+  margin-top: 100px
+font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px 20px;
+  background: -moz-linear-gradient(
+    top,
+    #a3a3a3 0%,
+    #3b3b3b 50%,
+    #242424 50%,
+    #000000);
+  background: -webkit-gradient(
+    linear, left top, left bottom,
+    from(#a3a3a3),
+    color-stop(0.50, #3b3b3b),
+    color-stop(0.50, #242424),
+    to(#000000));
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  border: 1px solid #000000;
+  -moz-box-shadow:
+    0px -1px 3px rgba(000,000,000,0.5),
+    inset 0px 0px 1px rgba(255,255,255,0.6);
+  -webkit-box-shadow:
+    0px -1px 3px rgba(000,000,000,0.5),
+    inset 0px 0px 1px rgba(255,255,255,0.6);
+  box-shadow:
+    0px -1px 3px rgba(000,000,000,0.5),
+    inset 0px 0px 1px rgba(255,255,255,0.6);
+  text-shadow:
+    0px -1px 0px rgba(000,000,000,1),
+    0px 1px 0px rgba(255,255,255,0.2);
+
 }
+
+
 
 .cell input {
   width: 30px;
   height: 30px;
 }
+
+.incorrect {
+  background-color: #FFFF00;
+}
+
+.value-provided {
+  background-color: #DDD;
+}
+
+#flash {
+  font-family: arial
+  font-color: #FF0000;
+  margin-left: 500px;
+  margin-bottom: 10px;
+  display: inline-block;
+  color: #FF0000;
+  text-align: center;
+}
+
