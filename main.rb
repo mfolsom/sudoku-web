@@ -62,6 +62,11 @@ end
 
 get '/' do
   prepare_to_check_solution
+    # if session[:level]
+    #   @difficulty = session[:level]
+    # else
+    #   @difficulty = session[:level] = :easy
+    # end
   generate_new_puzzle_if_necessary
   @current_solution = session[:current_solution] || session[:puzzle]
   @solution = session[:solution]
@@ -72,6 +77,11 @@ end
 get '/solution' do
   @puzzle = session[:solution]
   erb :index
+end
+
+get '/reset' do
+  session.clear
+  redirect '/'
 end
 
 post '/' do

@@ -10,7 +10,7 @@ helpers do
         guessed_incorrectly
         'incorrect'
       elsif !must_be_guessed
-        'value provided'
+        'value'
       end
   end
 
