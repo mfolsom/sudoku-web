@@ -69,3 +69,15 @@ I, [2014-02-05T16:51:54.836098 #6241]  INFO -- : 0:  sinatra (1.4.4) from /Users
 I, [2014-02-05T16:51:54.836311 #6241]  INFO -- : 0:  sinatra-partial (0.4.0) from /Users/meganfolsom/.rvm/gems/ruby-2.1.0/specifications/sinatra-partial-0.4.0.gemspec
 I, [2014-02-05T16:51:54.836531 #6241]  INFO -- : 0:  thin (1.6.1) from /Users/meganfolsom/.rvm/gems/ruby-2.1.0/specifications/thin-1.6.1.gemspec
 I, [2014-02-05T16:51:54.836741 #6241]  INFO -- : 0:  bundler (1.5.1) from /Users/meganfolsom/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec
+I, [2014-02-06T23:40:14.129087 #732]  INFO -- : 0:  daemons (1.1.9) from /Users/meganfolsom/.rvm/gems/ruby-2.0.0-p353/specifications/daemons-1.1.9.gemspec
+I, [2014-02-06T23:40:21.456509 #732]  INFO -- : 0:  eventmachine (1.0.3) from /Users/meganfolsom/.rvm/gems/ruby-2.0.0-p353/specifications/eventmachine-1.0.3.gemspec
+I, [2014-02-06T23:40:23.632781 #732]  INFO -- : 0:  newrelic_rpm (3.7.2.192) from /Users/meganfolsom/.rvm/gems/ruby-2.0.0-p353/specifications/newrelic_rpm-3.7.2.192.gemspec
+I, [2014-02-06T23:40:24.991882 #732]  INFO -- : 0:  rack (1.5.2) from /Users/meganfolsom/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-02-06T23:40:26.132516 #732]  INFO -- : 0:  rack-flash3 (1.0.5) from /Users/meganfolsom/.rvm/gems/ruby-2.0.0-p353/specifications/rack-flash3-1.0.5.gemspec
+I, [2014-02-06T23:40:27.243934 #732]  INFO -- : 0:  rack-protection (1.5.2) from /Users/meganfolsom/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.2.gemspec
+I, [2014-02-06T23:40:28.475349 #732]  INFO -- : 0:  shotgun (0.9) from /Users/meganfolsom/.rvm/gems/ruby-2.0.0-p353/specifications/shotgun-0.9.gemspec
+I, [2014-02-06T23:40:29.781857 #732]  INFO -- : 0:  tilt (1.4.1) from /Users/meganfolsom/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-02-06T23:40:31.109617 #732]  INFO -- : 0:  sinatra (1.4.4) from /Users/meganfolsom/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.4.gemspec
+I, [2014-02-06T23:40:32.040732 #732]  INFO -- : 0:  sinatra-partial (0.4.0) from /Users/meganfolsom/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-partial-0.4.0.gemspec
+I, [2014-02-06T23:40:33.622769 #732]  INFO -- : 0:  thin (1.6.1) from /Users/meganfolsom/.rvm/gems/ruby-2.0.0-p353/specifications/thin-1.6.1.gemspec
+I, [2014-02-06T23:40:33.623224 #732]  INFO -- : 0:  bundler (1.5.1) from /Users/meganfolsom/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
