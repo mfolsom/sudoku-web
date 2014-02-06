@@ -85,6 +85,7 @@ get '/reset' do
 end
 
 get '/hard' do
+  session.clear
   sudoku = random_sudoku
   session[:solution] = sudoku
   session[:puzzle] = puzzle(sudoku, 55)
@@ -94,6 +95,7 @@ get '/hard' do
 end
 
 get '/easy' do 
+  session.clear
   sudoku = random_sudoku
   session[:solution] = sudoku
   session[:puzzle] = puzzle(sudoku, 35)

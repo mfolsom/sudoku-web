@@ -4,6 +4,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+
 }
 
 #sudoku {
@@ -75,8 +76,8 @@ body button {
 }
 .round {
   margin-left: 250px;
-  width: 150px;
-  height: 30px;
+  width: 200px;
+  height: 40px;
   position: relative;
   border-radius: 100px;
   top: 200px;
