@@ -18,10 +18,15 @@ def random_sudoku
   sudoku.to_s.chars
 end
 
-def puzzle(sudoku)
-   @level = {:easy => 45, :hard =>55}
+# def level(difficulty)
+#  @levels = {:easy => 45, :hard =>55}
+#  @levels [difficulty]
+# end
+
+def puzzle(sudoku, num)
+  @difficulty = num
   make_puzzle = sudoku.dup
-    rand_index = (0..80).to_a.sample(@level[:easy])
+    rand_index = (0..80).to_a.sample(@difficulty)
     rand_index.each do |index|
       make_puzzle[index] = 0
     end
@@ -32,7 +37,7 @@ def generate_new_puzzle_if_necessary
   return if session[:current_solution]
   sudoku = random_sudoku
   session[:solution] = sudoku  
-  session[:puzzle] = puzzle(sudoku)      
+  session[:puzzle] = puzzle(sudoku, 35)      
   session[:current_solution] = session[:puzzle]
 end
 
@@ -62,11 +67,6 @@ end
 
 get '/' do
   prepare_to_check_solution
-    # if session[:level]
-    #   @difficulty = session[:level]
-    # else
-    #   @difficulty = session[:level] = :easy
-    # end
   generate_new_puzzle_if_necessary
   @current_solution = session[:current_solution] || session[:puzzle]
   @solution = session[:solution]
@@ -83,6 +83,25 @@ get '/reset' do
   session.clear
   redirect '/'
 end
+
+get '/hard' do
+  sudoku = random_sudoku
+  session[:solution] = sudoku
+  session[:puzzle] = puzzle(sudoku, 55)
+  session[:current_solution] = session[:puzzle]
+  redirect to("/")
+  erb :index
+end
+
+get '/easy' do 
+  sudoku = random_sudoku
+  session[:solution] = sudoku
+  session[:puzzle] = puzzle(sudoku, 35)
+  session[:current_solution] = session[:puzzle]
+  redirect to("/")
+  erb :index
+end
+
 
 post '/' do
   cells = box_order_to_row_order(params["cell"])

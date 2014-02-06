@@ -2,6 +2,15 @@
 <div id="flash">
   <%= flash[:notice] %>
 </div>
+  <form action="/reset" method="get">
+    <button class="round">Start Over</button>
+  </form>
+  <form action="/easy" method="get">
+    <button class="round">New Easy Game</button>
+  </form>
+    <form action="/hard" method="get">
+      <button class="round">New Harder Game</button>
+  </form>
 <div id="sudoku">   
   <form action="/" method="post">    
     <% 3.times do |row| %>
@@ -20,15 +29,7 @@
       </div>
     <% end %>
 
-    <button>Check solution</button>
-  </form>
-  <form action="/reset" method="get">
-    <button>New Puzzle!</button>
-  </form>
-  <form>
-    <button>Easy</button>
-  </form>
-    <form>
-      <button>Hard</button>
+  <button name="check">Check Solution</button>
+  <button name="save">Save Progress</button>
   </form>
 </div>
