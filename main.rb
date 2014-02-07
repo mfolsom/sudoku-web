@@ -20,11 +20,6 @@ def random_sudoku
   sudoku.to_s.chars
 end
 
-# def level(difficulty)
-#  @levels = {:easy => 45, :hard =>55}
-#  @levels [difficulty]
-# end
-
 def puzzle(sudoku, num)
   @difficulty = num
   make_puzzle = sudoku.dup
